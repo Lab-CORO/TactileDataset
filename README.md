@@ -1,10 +1,6 @@
 # Tactile Contact Patterns for Robotic Grasping: A Dataset of Real and Simulated Data
 
-This repository provides a comprehensive dataset including real and simulated tactile contact patterns from a deformable, capacitive-based tactile sensor. Designed to support research in tactile robotics and machine learning, our dataset consists of 46,200 samples divided equally into three groups:
 
--15,400 real samples
--15,400 synthetic samples generated using Abaqus
--15,400 synthetic samples generated using Isaac Gym (Utilizing finite element analysis)
 
 ## Table of Contents
 
@@ -13,12 +9,19 @@ This repository provides a comprehensive dataset including real and simulated ta
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Application Example](#application-example)
-- [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
 - [Contact](#contact)
 - [Download More Information](#download-more-information)
+
+  ## Overview
+
+  ## Dataset
+  The **TactileDataset** comprises a total of **46,200 samples**, divided into three main groups:
+
+- **15,400 Real Samples**: Collected from experiments using a deformable, capacitive-based tactile sensor.
+- **15,400 Synthetic Samples (Abaqus)**: Generated using Abaqus finite element analysis.
+- **15,400 Synthetic Samples (Isaac Gym)**: Generated using Isaac Gym for simulation purposes.
 
 
   ## Citation
