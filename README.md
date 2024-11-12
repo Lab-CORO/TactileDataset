@@ -31,13 +31,13 @@ This repository provides a comprehensive dataset including real and simulated ta
   note         = {Manuscript submitted for publication},
   year={2024},
 }
+```
 
 ## Contact
-
-For any questions, suggestions, or feedback, please feel free to reach out to us:
+For any questions, suggestions, or feedback, please feel free to reach at:
 
 **Lead Maintainer:**  
-**[Berith De la crus Sanchez]**  
+**[Berith De la cruz Sanchez]**  
 **Email:** [berithcruzs@gmail.com](mailto:berithcruzs@gmail.com)  
 **GitHub:** [BerithCS](https://github.com/BerithCS)
 
@@ -45,7 +45,8 @@ For any questions, suggestions, or feedback, please feel free to reach out to us
 
 For additional details, including the latest updates to the dataset and the GUI, please visit our GitHub repository:
 
-🔗 [TactileDataset GitHub Repository](https://github.com/Lab-CORO/TactileDataset)
+🔗 [CAD Files of Indenters and Objects]([https://github.com/Lab-CORO/TactileDataset](https://os5.mycloud.com/action/share/e043f2bd-d56c-4e53-b178-062b4b60af09))
+🔗 [Simulation Scripts]([https://github.com/Lab-CORO/TactileDataset](https://os5.mycloud.com/action/share/daf9c31c-53b8-485b-b6ef-5ca75bfcfc75))
 
 
   
