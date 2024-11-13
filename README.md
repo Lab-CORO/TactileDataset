@@ -1,5 +1,7 @@
 # Tactile Contact Patterns for Robotic Grasping: A Dataset of Real and Simulated Data
-
+<p>
+<img width="70%" alt="GUI-main" src="GUI_Main.jpg">
+</p>
 
 
 ## Table of Contents
