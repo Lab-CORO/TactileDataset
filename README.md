@@ -50,6 +50,7 @@ The **TactileDataset** comprises a total of **46,200 samples**, equally divided 
 - [PyQt5](https://pypi.org/project/PyQt5/) for the GUI
 - [Pandas](https://pypi.org/project/pandas/) for data handling
 - [Matplotlib](https://pypi.org/project/matplotlib/) for visualization
+- [h5py](https://pypi.org/project/h5py/) for HDF5 file interaction
 
 ### Steps
 
