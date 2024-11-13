@@ -7,9 +7,10 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
 - [Dataset](#dataset)
+  - [Experimental Scenarios](#experimental-scenarios)
 - [Installation](#installation)
+  - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [License](#license)
 - [Citation](#citation)
@@ -18,14 +19,45 @@
 
 ## Overview
 
+Welcome to the **TactileDataset GUI** repository! This project provides a graphical user interface (GUI) for accessing and utilizing a comprehensive tactile dataset, which includes both real and simulated data from a capacitive tactile sensor. This dataset is designed to support research in tactile robotics and machine learning, particularly focusing on sim-to-real applications.
+
+This repository is linked to our conference paper, "[Tactile Contact Patterns for Robotic Grasping: A Dataset of Real and Simulated Data]."
+
+
 ## Dataset
-The **TactileDataset** comprises a total of **46,200 samples**, divided into three main groups:
+
+The **TactileDataset** comprises a total of **46,200 samples**, equally divided into three main groups:
 
 - **15,400 Real Samples**: Collected from experiments using a deformable, capacitive-based tactile sensor.
 - **15,400 Synthetic Samples (Abaqus)**: Generated using Abaqus finite element analysis.
-- **15,400 Synthetic Samples (Isaac Gym)**: Generated using Isaac Gym for simulation purposes.
+- **15,400 Synthetic Samples (Isaac Gym)**: Generated using Isaac Gym through finite element analysis.
 
+### Experimental Scenarios
 
+1. **Indenter Press Tests**:
+   - **49 Unique Indenters** pressed onto the sensor at various force levels.
+   - Generates a diverse array of contact patterns.
+
+2. **Grasping Tests**:
+   - Integration of the sensor into a **2F-85 Robotiq parallel gripper**.
+   - Grasping **12 different objects** to capture varied tactile interactions.
+  
+## Installation
+
+### Prerequisites
+
+- Python 3.7 or higher
+- [PyQt5](https://pypi.org/project/PyQt5/) for the GUI
+- [Pandas](https://pypi.org/project/pandas/) for data handling
+- [Matplotlib](https://pypi.org/project/matplotlib/) for visualization
+
+### Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Lab-CORO/TactileDataset.git
+   cd TactileDataset
+    
 ## Citation
 If you use this dataset or GUI in your research, please cite our conference paper:
   
