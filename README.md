@@ -14,18 +14,18 @@
 - [Contact](#contact)
 - [Download More Information](#download-more-information)
 
-  ## Overview
+## Overview
 
-  ## Dataset
-  The **TactileDataset** comprises a total of **46,200 samples**, divided into three main groups:
+## Dataset
+The **TactileDataset** comprises a total of **46,200 samples**, divided into three main groups:
 
 - **15,400 Real Samples**: Collected from experiments using a deformable, capacitive-based tactile sensor.
 - **15,400 Synthetic Samples (Abaqus)**: Generated using Abaqus finite element analysis.
 - **15,400 Synthetic Samples (Isaac Gym)**: Generated using Isaac Gym for simulation purposes.
 
 
-  ## Citation
-  If you use this dataset or GUI in your research, please cite our conference paper:
+## Citation
+If you use this dataset or GUI in your research, please cite our conference paper:
   
 ```bibtex
 @unpublished{BerKwaJea2024,
