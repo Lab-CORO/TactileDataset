@@ -58,6 +58,11 @@ The **TactileDataset** comprises a total of **46,200 samples**, equally divided 
    ```bash
    git clone https://github.com/Lab-CORO/TactileDataset.git
    cd TactileDataset
+
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
     
 ## Citation
 If you use this dataset or GUI in your research, please cite our conference paper:
