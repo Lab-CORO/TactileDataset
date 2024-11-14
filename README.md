@@ -47,10 +47,11 @@ The **TactileDataset** comprises a total of **46,200 samples**, equally divided 
 ### Prerequisites
 
 - Python 3.7 or higher
-- [PyQt5](https://pypi.org/project/PyQt5/) for the GUI
+- [customtkinter](https://pypi.org/project/customtkinter/)for the GUI
 - [Pandas](https://pypi.org/project/pandas/) for data handling
 - [Matplotlib](https://pypi.org/project/matplotlib/) for visualization
 - [h5py](https://pypi.org/project/h5py/) for HDF5 file interaction
+- [pillow](https://pypi.org/project/pillow/) for image processing and manipulation
 
 ### Steps
 
@@ -62,7 +63,10 @@ The **TactileDataset** comprises a total of **46,200 samples**, equally divided 
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
+   
+2. **Download Dataset**:
 
+Please download the dataset from 🔗 [DatasetFiles]([https://os5.mycloud.com/action/share/daf9c31c-53b8-485b-b6ef-5ca75bfcfc75](https://os5.mycloud.com/action/share/dc475405-9198-4860-85c9-aeb3d8f79a09)) and place it in the main folder of the repository to ensure proper functionality.
     
 ## Citation
 If you use this dataset or GUI in your research, please cite our conference paper:
@@ -70,7 +74,7 @@ If you use this dataset or GUI in your research, please cite our conference pape
 ```bibtex
 @unpublished{BerKwaJea2024,
   title={Tactile Contact Patterns for Robotic Grasping: A Dataset of Real and Simulated Data},
-  author={e la Cruz-S{\'a}nchez, Berith Atemoztli and Kwiatkowski, Jennifer and Roberge, Jean-Philippe},
+  author={De la Cruz-S{\'a}nchez, Berith Atemoztli and Kwiatkowski, Jennifer and Roberge, Jean-Philippe},
   note         = {Manuscript submitted for publication},
   year={2024},
 }
